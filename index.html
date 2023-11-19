@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feinste Schachgrundlagen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+</head>
+<body>
+    
+    <script type="text/javascript">
+        window.onload = function() {
+            var node = document.createElement('style');
+            node.innerHTML = "html {scroll-behavior: smooth;}";
+            document.body.appendChild(node);
+        };
+    </script>  
+
+    <div class="HeaderPicture">
+        <div class="Conatainer">
+            <p class="Headline">
+              Feinste Schachgrundlagen 
+            </p>
+        </div>
+        <img class="HeaderPicture1" src="Background6.jpg" alt="HeaderPicture">
+        <a class="Headlinelink1" href="#Geschichte">Geschichte</a>
+        <a class="Headlinelink2" href="#Regeln">Regeln</a>
+        <a class="Headlinelink3" href="#Rating">Rating</a>
+        <a class="Headlinelink4" href="#Impressum">Impressum</a>
+    </div>
+    
+    <div class="BackgroundImage">
+        <div class='header-overlay'></div>
+
+        <p class="Zitat">
+            "Schach ist der Kampf gegen den Fehler." - Johannes Zukertort
+        </p>
+    </div>
+
+    <script type="text/javascript">
+    $(window).scroll(function() {
+        var scrollTop = $(this).scrollTop();
+      
+        $('.header-overlay').css({
+          opacity: function() {
+            var elementHeight = $(this).height();
+            return 1.25 - (elementHeight - scrollTop) / elementHeight;
+          }
+        });
+      });
+    </script>  
+
+    <div class="Einführung">
+        <p class="EinführungTextHeadline">
+            Was ist Schach eigentlich?
+            <hr class="Abtrennung">
+        </p>
+
+        <div class="EinführungTextContainer">
+            <img class="BackgroundSchachbrett" src="Background Schachbrett.jpg" alt="BackgroundSchachbrett">
+
+            <p class="EinführungText">
+                 Diese Frage sowie alles rund um die Aspekte, Entstehung, Regeln, Rating und Phasen des Schachspiels werden hier erläutert und erklärt.
+                <br> <br>
+                 Schach ist ein Brettspiel für zwei Personen, die mit je sechzehn schwarzen bzw. weißen Schachfiguren (von unterschielichem Wert und mit unterschiedlicher Funktion) 
+                abwechselnd ziehen mit dem Ziel, den gegnerischen König mattzusetzen.
+                <br> <br>
+                Dabei ist auf dem Bild rechts der typische Aufbau der Figuren zu Beginn des Spiels zu sehen. Die Figuren in der untersten Reihe heißen von links nach rechts: Turm, Springer, Läufer, König, Dame, Läufer, Springer und Turm. In der Reihe vor ihnen stehen die acht Bauern. 
+                <br> <br>
+                Dabei werden die Türme sowie die Dame als Schwerfiguren bezeichnet und Läufer sowie Springer als Leichtfiguren. Außerdem hat jede Figur eine bestimmte Wertigkeit in Punkten (Bauer: 1 Punkt, Springer und Läufer: 3 Punkte, Turm: 5 Punkte, Dame: 9 Punkte und wenn man den König "verliert" hat man sowieso verloren), welche ausdrückt wie wertvoll eine Figur ist.
+                <br> <br>
+                Um das Benennen der Züge einfacher zu gestalten wurde die sogennate Schachnotation eingeführt, wobei die Felder des Schachbretts (aus der Sicht des Spielers der mit den weißen Figuren spielt) horizontal von a-h und vertikal von 1-8 beschriftet wurden.
+                <br>
+            </p> 
+        </div>
+    </div>
+
+    <div class="Phasen">
+        <p class="EinführungText">
+            Unter den folgenden Links können mehr Informationen zu den einzelnen Phasen des Schachspiels gefunden werden:
+            <br> <br> <br>
+        </p>
+        <a class="Eröffnungslinkzwei" href="./indexe.html">Eröffnung</a>
+        <a class="Mittelspiellinkzwei" href="./indexf.html">Mittelspiel</a>
+        <a class="Mittelspiellinkzwei" href="./indexg.html">Endspiel</a>
+        <hr class="Abtrennungzweizwei">
+        <br id="Geschichte">
+    </div>
+
+    <div class="Geschichte">
+        <p class="EinführungTextHeadline">
+            Legenden, Erfinder, Herkunftsort,
+            <br> <br>
+            und die Geschichte des Schachspiels
+            <hr class="Abtrennung">
+        </p>
+
+        <div class="GeschichteTextContainer"> 
+            <img class="BackgroundKarte" src="Background Karte.jpg" alt="BackgroundKarte">
+        
+            <p class="UnterHeadlinezweizwei">
+                Herkunft laut der Wissenschaft:
+                <br> <br>
+            </p>
+            
+            <p class="GeschichteText">
+                Das Spiel der Könige hat eine lange und große Tradition. Das Spiel wurde im 6. Jahrhundert vermutlich in Indien erfunden und verbreitete sich von dort in alle Richtungen. 
+                <br> <br>
+                Wahrscheinlich gab es aber keinen alleinigen Erfinder, da Schach sich aus vielen unterschiedlichen Spielen und Kulturen entwickelt hat.
+                <br> <br>
+                Über Persien und die arabischen Länder gelangte es nach Europa. Im Laufe der Zeit veränderten sich die Regeln, bis das Spiel so gespielt wurde, wie wir es heute in Europa kennen. Das war die Geburtsstunde des modernen Schachs. 
+                <br> <br> 
+                Die ersten Untersuchungen zur Theorie des Schachspiels wurden im 15. Jahrhundert veröffentlicht. Die ersten überlieferten Partien, zumeist aus Wettkämpfen, stammen aus dem Ende des 18. Jahrhunderts. 
+                <br> <br>
+            </p>
+            <p class="UnterHeadlinezweizwei">
+                Entstehung der Legende nach:
+                <br> <br>
+            </p>
+            <p class="GeschichteText">
+                Es ranken sich viele Legenden um die Herkunft des Schachspiels. Die bekannteste Legende ist die Weizenkornlegende. Laut der Legende soll der damalige Herrscher Indiens Shihram seine Untertanen tyrannisiert haben. Um den König zu erleuchten erfand der Weise Sissa ibn Dahir das Schachspiel. Er stellte hier den König als die wichtigste und zugleich schwächste Figur im Spiel dar, welche ohne die Hilfe der anderen Figuren machtlos ist.
+                <br> <br>
+                Angeblich beeindruckte das Schachspielen den König so sehr, dass er gütiger wurde. Er ließ das Spiel verbreiten und gab dem Erfinder Sissa zum Dank für die gewonnene Lebensweisheit einen Wunsch frei. Sissa bewies seinen Witz, indem er einen vermeintlich bescheiden Wunsch äußerte. Auf das erste der 64 Felder des Schachbrettes sollte ein Weizenkorn gelegt werden. Auf das zweite die doppelte Menge, also zwei und so weiter. 
+                <br> <br>
+                Diesen vermeintlich geringen Wunsch nahm der König an und beauftragte seine Rechenmeister die Menge der Weizenkörner zu errechnen. Nach langer Arbeit stellten diese fest, dass die errechnete Menge von 18.446.744.073.709.551.615 also etwa 18 Trillionen Weizenkörnern nicht aufzubringen war. Die Rechenmeister des Königs konnten ihn jedoch vor der Pleite bewahren, indem sie vorschlugen, dass Sissa alle Körner selbst zählen solle.
+                <br id="Regeln">
+            </p>
+        </div>
+    </div>
+
+    <div class="Regeln">
+        <p class="EinführungTextHeadline">
+            Wie spielt man Schach?
+            <br> <br>
+            Was sind die wichtigsten Regeln?
+            <hr class="Abtrennung">
+        </p>
+
+        <div class="GeschichteTextContainer">
+            <p class="GeschichteText">
+                Gespielt wird abwechslungsweise: Erst bewegt der Spieler von Weiß eine seiner weißen Figuren, dann der Spieler von Schwarz eine schwarze, dann ist wieder Weiß am Zug und so weiter. Wenn man seine Figur auf ein Feld bewegt, auf dem schon eine gegnerische Figur steht, dann wird die gegnerische Figur vom Brett genommen. Man sagt dann, dass die Figur geschlagen wurde. 
+                <br> <br>
+            </p>    
+            <p class="UnterHeadline">
+                So ziehen die Figuren:
+                <br> <br>
+            </p>
+            <p class="GeschichteText">
+                Jeder Spieler hat zwei Türme. Einen Turm darf man so viele Felder weit ziehen wie man will, waagerecht oder senkrecht. Die beiden Läufer spielen ähnlich, aber immer nur schräg, also diagonal. Einer der Läufer bleibt somit immer auf den schwarzen Feldern, der andere auf den weißen.
+                <br> <br>
+                Die stärkste Figur ist die Dame. Sie darf so wie die Türme und Läufer gezogen werden, also waagerecht, senkrecht und diagonal, und so weit wie man will. Der König darf nur ein Feld weiter gehen, in jede Richtung.
+                <br> <br>
+                Einen Springer bewegt man erst einen Schritt gerade und dann einen schräg. Weil die möglichen „Landefelder“ fast wie in einem Kreis um den Springer herum liegen, spricht man vom Rad des Springers. Der Springer ist die einzige Figur, die über andere Figuren hinweg springen darf.
+                <br> <br>
+                Schließlich hat ein Spieler noch acht Bauern. Ein Bauer darf immer nur einen Schritt nach vorn gehen und nie rückwärts. Am Anfang darf man, ausnahmsweise, auch zwei Schritte gehen, wenn man will. Schlagen kann der Bauer aber nur schräg nach vorn. Wenn eine Figur gerade vor ihm steht, bleibt er stecken.
+                <br> <br>
+            </p>
+            <p class="UnterHeadline">
+                Sonderregeln im Schach:
+                <br> <br>
+            </p>
+            
+            <img class="BackgroundKarte" src="BackgroundRegeln.jpg" alt="BackgroundRegeln">
+
+            <p class="GeschichteText">
+                Ein Bauer gilt als eher schwach. Aber gerade Bauern, die einander decken, können sehr wichtig im Spiel werden. Erreicht ein Bauer die letzte Felderreihe am Brettrand des Gegners, dann darf der Spieler des Bauern den Bauern in eine Figur seiner Wahl (außer in den König) umtauschen.
+                <br> <br>
+                Eine letzte Regel für Bauern ist das sogenannte "en passant", was im Französischen "im Vorbeigehen" bedeutet. Falls ein Bauer sich zwei Felder weit bei seinem ersten Zug bewegt, und dabei seitlich neben dem Bauern eines Gegners landet (also effektiv die Schlag-Gelegenheit dieses Bauerns überspringt), dann hat der andere Bauer die Möglichkeit, diesen zu schlagen.
+                <br> <br>
+                Eine weitere Spezialregel nennt sich Rochade. Dieser Zug erlaubt es, zwei wichtige Dinge auf einmal zu erledigen: deinen König in Sicherheit zu bringen und deinen Turm aus der Ecke heraus und ins Spiel zu bekommen. Ist ein Spieler am Zug und rochiert, darf er dabei seinen König 2 Felder nach rechts oder links verschieben und gleichzeitig den Turm, der in der jeweiligen Zugrichtung des Königs steht, auf das unmittelbare Nachbarfeld zur anderen Seite des Königs stellen. 
+                <br> <br id="Rating">
+            </p>
+        </div>
+    </div>
+
+    <div class="Rating">
+        <p class="EinführungTextHeadline">
+            Welche Phasen hat ein Schachspiel?
+            <br> <br>
+            Wie setzt sich das Rating zusammen?
+            <hr class="Abtrennung">
+        </p>
+
+        <div class="GeschichteTextContainer">
+            <p class="UnterHeadline">
+                Phasen des Schachspiels:
+                <br> <br>
+            </p>
+
+            <p class="GeschichteText">
+                Jedes Schachspiel kann grundsätzlich in drei Phasen eingeteilt werden,  in denen meist ganz besondere Arten von Zügen charakteristisch sind. Die erste dieser Phasen wird als Eröffnungsphase bezeichnet. Die Eröffnungsphase beim Schach erstreckt sind meist über die ersten 15 Züge und dient den Spielern dazu ihre Spielfiguren zu mobilisieren. 
+                <br> <br>
+                Sobald die Eröffnungsphase abgeschlossen ist, beginnt beim Schach die so genannte Mittelphase bzw. das Mittelspiel. Dieses ist dadurch gekennzeichnet, dass beide Spieler versuchen das Spiel zum eigenen Vorteil zu beeinflussen. Sobald sich nur noch vergleichsweise wenige Figuren auf dem Schachbrett befinden, spricht man vom Endspiel – der letzten Phase des Spiels.
+                Mehr zu den einzelnen Phasen gibt es unter den folgenden Links:
+                <br> <br> <br>
+                <a class="Eröffnungslink" href="./indexe.html">Eröffnung</a>
+                <a class="Mittelspiellink" href="./indexf.html">Mittelspiel</a>
+                <a class="Mittelspiellink" href="./indexg.html">Endspiel</a>
+                <hr class="Abtrennungzwei">
+            </p>
+
+            <p class="UnterHeadline">
+                <br> 
+                Im Schach gewinnen:
+                <br> <br>
+            </p>
+
+            <p class="GeschichteText">
+                Ein Spiel kann nur durch Mattsetzen, Remi, oder Aufgabe enden. Wie zuvor erklärt, ist es das Ziel des Spiels, den gegnerischen König Schachmatt zu setzen. Dies gelingt, wenn der König Schach gesetzt ist und sich nicht aus dem Schach heraus bewegen kann. Es gibt nur drei Wege durch die ein König sich dem Schach entziehen kann: Auf ein nicht bedrohtes Feld ziehen (Rochieren ist allerdings nicht erlaubt!), das Schach mit einer anderen Figur blockieren oder die Figur, die den König bedroht, schlagen. Kann ein König sich nicht dem Schach entziehen, endet das Spiel.
+                <br> <br>
+                Gelegentlich enden Schachpartien nicht mit einem Gewinner, sondern mit einem Unentschieden, also einem Remis. Es gibt vier Gründe warum ein Schachspiel im Remis enden kann: Die Position erreicht ein sogenanntes Patt, wenn ein Spieler am Zug ist, dieser aber nur seinen König ins Schach ziehen und sonst keinen anderen Zug machen kann, Übereinkunft: Die Spieler können sich einfach auf ein Remis einigen und damit die Partie beenden, Es gibt nicht genügend Material auf dem Brett um ein Matt zu erzwingen (Beispiel: König und Läufer gegen König) oder Ein Spieler kann Remis reklamieren, wenn genau dieselbe Stellung zum dritten Mal auf dem Brett erscheint ( das muss nicht dreimal hintereinander sein).
+                <br> <br>
+            </p>
+
+            <p class="UnterHeadline">
+                Rating (Spielstärke):
+                <br> <br>
+            </p>
+        </div>
+    </div>
+
+    <div class="BackgroundAnimation">
+        <div class="AnimationRechts" data-fade-in-right>
+            <p class="GeschichteText">
+                Grundsätzlich wird die Spielstärke jedes Spielers durch seinen Elo Wert repräsentiert. Spielt ein Spieler ohne Wertungszahl dabei gegen ELO-dotierte Spieler, so wird seine Zahl anhand der gespielten Partien weiterhin geschätzt. Schließlich erhält er selbst eine ELO-Zahl. Je höher der Wert der ELO desto besser der Spieler.
+                <br> <br>
+                Der Elo Wert wird nach dem Grundprinzip berechnet, dass bei einer Begegnung zweier Spieler aufgrund ihrer ELO-Zahlen mit dem ELO-System ein Erwartungswert für deren Spielergebnis angegeben werden kann. Dieser Erwartungswert hängt dabei ab von der Differenz der ELO-Zahlen beider Spieler. Die genaue Verfahrensweise zur Bestimmung des Elo Werts findet man unter folgendem Link.
+                <a class="WikipediaLink" href="https://de.wikipedia.org/wiki/Elo-Zahl#Erwartungswert" target="_blank">Elo Wert (Mathematisch)</a>
+                <br> <br>
+                Im Bild rechts ist Magnus Carlsen zu sehen. Carlsen hat aktuell einen Elo Wert von 2856 und ist amtierender Weltmeister. Nur sehr leistungsstarke Schachprogramme wie Stockfish 15 haben einen noch höheren Elo Wert als Carlsen, welcher im Fall Stockfish 15 bei ca. 3600 liegt. 
+                <br> <br>
+                Meistens haben Anfänger einen Elo Wert von unter 1000 und Experten einen von ca. 2000, dazwischen befinden sich Hobbyspieler und Vereinsspieler. Ab 2500 Elo trägt man meistens den Titel Großmeister und gehört damit zu den Schachprofis, welche bei internationalen Tunieren mitspielen und teilweise große Preisgelder gewinnen können. 
+                <br> <br>
+                Die wichtigsten Schachtuniere sind das Tata-Steel-Schachturnier, die Schacholympiade und die Schachweltmeisterschaft. 
+            </p>
+
+            <div class="Carlsen">
+                <img class="BackgroundKartezwei" src="BackgroundCarlsen.jpg" alt="BackgroundCarlsen">
+            
+                <details>
+                    <summary>
+                        Magnus Carlsen
+                    </summary>
+                    
+                    <p class="SummaryText">
+                        Sven Magnus Øen Carlsen ist ein norwegischer Schachspieler. 
+                        <br> <br>
+                        Er ist seit 2013 Schachweltmeister. 
+                        <br> <br>
+                        Im Jahre 2004 errang Carlsen den Titel eines Großmeisters als damals zweitjüngster Spieler – im Alter von 13 Jahren. 
+                        <br> <br>
+                        Erstmals im Januar 2010 erreichte er als bislang jüngster Spieler die Spitzenposition der FIDE-Weltrangliste und hat sie durchgehend seit Juli 2011 bis heute inne. 
+                    </p>
+                </details>
+            </div>    
+        </div>  
+    </div>
+    
+    <script type="text/javascript">
+    const observer = new IntersectionObserver(triggerFadeIn, {
+        rootMargin: '275px',
+        threshold: 0.5
+      });
+      
+      function triggerFadeIn(entries, observer) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("fade-from-right");
+          }
+        });
+      };
+                            
+      document.querySelectorAll("[data-fade-in-right]").forEach(item => observer.observe(item));
+    </script>
+
+    <div class="BackgroundIframe">
+        <p class="UnterHeadlinezwei">
+            Tägliches Rätsel:
+        </p>
+
+        <iframe class="Iframe" src="https://www.schach-tipps.de/schachtraining/taktik/schachaufgaben" height="600px" name="Tägliches Rätsel">
+
+        </iframe>
+        <br id="Impressum">
+    </div>  
+    
+    <div class="Footer">
+        <div class="FooterHeadlines">
+            <p class="FooterHeadline">
+                Quellen:
+            </p>
+
+            <p class="FooterHeadlinezwei">
+                Zusatz Informationen:
+            </p>
+
+            <p class="FooterHeadlinezwei">
+                Haftungshinweis:
+            </p>
+        </div>
+
+        <div class="FooterContent">
+            <div class="FooterLinks">
+                <a href="https://www.ichess.net/de/shop/triple-weighted-chess-pieces-3-75-king/">https://www.ichess.net/de/shop/triple-weighted-chess-pieces-3-75-king/</a>
+                <br> <br>
+                <a href="https://ryanphillipschess.com/blog/">https://ryanphillipschess.com/blog/</a>
+                <br> <br>
+                <a href="https://www.olivenholz.de/it/schachbretter/165-schachspiel-viereckig-mit-schublade.html">https://www.olivenholz.de/it/schachbretter/165-schachspiel-viereckig-mit-schublade.html</a>
+                <br> <br>
+                <a href="https://www.spielezar.ch/blog/geschichte/die-geschichte-des-schachspiels">https://www.spielezar.ch/blog/geschichte/die-geschichte-des-schachspiels</a>
+                <br> <br>
+                <a href="https://www.chess.com/de/schachregeln">https://www.chess.com/de/schachregeln</a>
+                <br> <br>
+                <a href="https://klexikon.zum.de/wiki/Schach">https://klexikon.zum.de/wiki/Schach</a>
+                <br> <br>
+                <a href="https://www.schach-tipps.de/schachtraining/taktik/schachaufgaben">https://www.schach-tipps.de/schachtraining/taktik/schachaufgaben</a>  
+            
+                <p class="FS">
+                    Feinste Schachgrundlagen AG © 2022
+                </p>
+            </div>
+
+            <div class="FooterLinksZusatz">
+                <a href="./indexe.html">Eröffnung</a>
+                <br> <br> <br> <br> <br> <br>
+                <a href="./indexf.html">Mittelspiel</a>
+                <br> <br> <br> <br> <br> <br>
+                <a href="./indexg.html">Endspiel</a>
+            </div>
+
+            <div class="FooterHaftung">
+                <p class="FooterHaftungText">
+                    Es wird keine Verantwortung für
+                    <br>
+                    die Korrektheit oder Volständigkeit
+                    <br>
+                    der Informationen übernommen.
+                    <br>
+                    Für den Inhalt der verlinkten Seiten 
+                    <br>
+                    sind ausschließlich deren Betreiber
+                    <br>
+                    verantwortlich. Die Bearbeitung 
+                    <br>
+                    außerhalb der Grenzen des  
+                    <br>
+                    Urheberrechtes bedarf der 
+                    <br>
+                    schriftlichen  Zustimmung 
+                    <br>
+                    der Autoren: Thor und Senior
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
