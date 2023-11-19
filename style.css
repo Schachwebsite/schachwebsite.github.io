@@ -1,0 +1,711 @@
+* {  
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+}
+
+.Container {
+    height: 100px;
+    width: 300px;
+}
+
+.Headline {
+    color: rgb(200, 200, 200);
+    padding-top: 26px;
+    font-size: 35px;
+    margin-left: 24px;
+    font-family: 'Crimson Text', serif;
+}
+
+.Headlinezwei {
+    color: rgb(200, 200, 200);
+    padding-top: 26px;
+    font-size: 35px;
+    margin-left: 24px;
+    font-family: 'Crimson Text', serif;
+    padding-right: 50px;
+}
+
+.HeaderPicture {
+    height: 75px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: black;
+    z-index: 1;
+}
+
+.Headlinelink1 {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    margin-left: 90px;
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    padding-top: 26px;
+}
+
+.Headlinelink2 {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    margin-left: 37px;
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    padding-top: 26px;
+}
+
+.Headlinelink3 {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    margin-left: 37px;
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    padding-top: 26px;
+}
+
+.Headlinelink4 {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    margin-left: 37px;
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    padding-top: 26px;
+}
+
+.Headlinelink1zwei {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    margin-left: 95px;
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    padding-top: 26px;
+}
+
+.Headlinelink2zwei {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    margin-left: 42px;
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    padding-top: 26px;
+}
+
+.Headlinelink3zwei {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    margin-left: 42px;
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    padding-top: 26px;
+}
+
+.Headlinelink4zwei {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    margin-left: 42px;
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    padding-top: 26px;
+}
+
+.HeaderPicture a:hover {
+    border-top: 4px solid #5C2602;
+    padding-top: 22px;
+}
+
+.BackgroundImage {
+    margin-top: 75px;
+    width: 1263px;
+    height: 469px;
+    background-image: url(Background3.jpg);
+}
+
+.BackgroundImagezwei {
+    margin-top: 75px;
+    width: 1263px;
+    height: 469px;
+    background-color: black;
+}
+
+.HeaderPicture1 {
+    margin-left: 130px;
+}
+
+.Zitat {
+    color: rgb(200, 200, 200);
+    font-size: 27px;
+    font-family: 'Crimson Text', serif;
+    padding-left: 300px;
+    padding-top: 410px;
+}
+
+.Zitatzwei {
+    color: rgb(200, 200, 200);
+    font-size: 27px;
+    font-family: 'Crimson Text', serif;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 110px;
+}
+
+.Einführung {
+    background-color: black;
+    width: 1263px;
+    height: 735px;
+}
+
+.Einführungeins {
+    background-color: black;
+    width: 1263px;
+    height: 1320px;
+}
+
+.Einführungzwei {
+    background-color: black;
+    width: 1263px;
+    height: 900px;
+}
+
+.Einführungzweizwei {
+    background-color: rgb(15, 15, 15);
+    width: 1263px;
+    height: 1320px;
+}
+
+.Einführungzweizweizwei {
+    background-color: rgb(10, 10, 10);
+    width: 1263px;
+    height: 900px;
+}
+
+.EinführungTextContainer {
+    width: 1100px;
+    height: 100px;
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+.EinführungTextContainerzwei {
+    width: 1100px;
+    height: 75px;
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+.EinführungText {
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    line-height: 27px;
+}
+
+.EinführungTextzwei {
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    line-height: 27px;
+    padding-left: 32px;
+}
+
+.EinführungTextzweizwei {
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    line-height: 27px;
+    padding-left: 32px;
+}
+
+.EinführungTextzweizweizwei {
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    line-height: 27px;
+    padding-left: 32px;
+    margin-top: 35px;
+}
+
+.EinführungTextHeadline {
+    color: #5C2602;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 32px;
+    padding-top: 40px;
+}
+
+.Abtrennung {
+    width: 200px;
+    height: 7px;
+    margin-left: 32px;
+    margin-top: 25px;
+    background-color: #5C2602;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.BackgroundSchachbrett {
+    border: 3px solid #5C2602;
+    float: right;
+    margin-left: 50px;
+}
+
+.Phasen {
+    background-color: black;
+    width: 1231px;
+    height: 260px;
+    padding-left: 32px;
+}
+
+.Phasenzwei {
+    background-color: black;
+    width: 1231px;
+    height: 170px;
+    padding-left: 32px;
+}
+
+.Phasenzweizwei {
+    background-color: rgb(10, 10, 10);
+    width: 1231px;
+    height: 170px;
+    padding-left: 32px;
+}
+
+.Eröffnungslinkzwei {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    margin-left: 115px;
+}
+
+.Eröffnungslinkzwei:hover {
+    border-bottom: 3px solid #5C2602;
+}
+
+.Mittelspiellinkzwei {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+.Mittelspiellinkzwei:hover {
+    border-bottom: 3px solid #5C2602;
+}
+
+.Geschichte {
+    width: 1263px;
+    height: 1190px;
+    background-color: rgb(110, 110, 110);
+}
+
+.GeschichteText {
+    color: black;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    line-height: 27px;
+}
+
+.GeschichteTextContainer {
+    width: 1200px;
+    height: 100px;
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+.BackgroundKarte {
+    border: 3px solid #5C2602;
+    float: right;
+    margin-left: 50px;
+}
+
+.Regeln {
+    width: 1263px;
+    height: 1350px;
+    background-color: rgb(150, 150, 150);
+}
+
+.fade-from-right {
+    animation: move-from-right 4s forwards;
+}
+  
+@keyframes move-from-right {
+    0% {
+        transform: translateX(950px);
+    }
+    100% {
+        transform: translateX(32px);
+    }
+}
+
+.AnimationRechts {
+    font-size: 20px;
+    background-color: rgb(200, 200, 200);
+    color: black;
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    align-items: left;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 27px;
+}
+
+.Rating {
+    background-color: rgb(200, 200, 200);
+    width: 1263px;
+    height: 1135px;
+}
+
+.UnterHeadline {
+    color: #9a754a;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+.UnterHeadlinezweizwei {
+    color: #5C2602;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+.Eröffnungslink {
+    color: black;
+    text-decoration: none;
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    margin-left: 115px;
+}
+
+.Eröffnungslink:hover {
+    border-bottom: 3px solid #5C2602;
+    color: #5C2602;
+}
+
+.Mittelspiellink {
+    color: black;
+    text-decoration: none;
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+.Mittelspiellink:hover {
+    border-bottom: 3px solid #5C2602;
+    color: #5C2602;
+}
+
+.Abtrennungzwei {
+    width: 1195px;
+    height: 1px;
+    margin-top: 45px;
+    background-color: #5C2602;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.Abtrennungzweizwei {
+    width: 1195px;
+    height: 2px;
+    margin-top: 45px;
+    background-color: #5C2602;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.BackgroundAnimation {
+    width: 1263px;
+    height: 680px;
+    background-color: rgb(200, 200, 200);
+} 
+
+.Carlsen {
+    max-height: 550px;
+    max-width: 600px;
+}
+
+.BackgroundKartezwei {
+    border: 3px solid #5C2602;
+    float: right;
+    margin-left: 20px;
+}
+
+.WikipediaLink {
+    text-decoration: none;
+    color: #9a754a;
+}
+
+.WikipediaLink:hover {
+    border-bottom: 3px solid #9a754a;
+    color: #9a754a;
+}    
+
+.Iframe {
+    max-width: 800px;
+    border: 3px solid #5C2602;
+    margin-left: 231px;
+    margin-bottom: 50px;
+}
+
+.BackgroundIframe {
+    background-color: rgb(200, 200, 200);
+    width: 1263px;
+    height: 750px;
+}
+
+.UnterHeadlinezwei {
+    color: #9a754a;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+details > summary {
+    margin-left: 20px;
+    padding: 4px;
+    width: 200px;
+    background-color: rgb(200, 200, 200);
+    border: none;
+    cursor: pointer;
+}
+
+.SummaryText {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.Footer {
+    height: 400px;
+    width: 1263px;
+    background-color: rgb(20, 20, 20);
+}
+
+.FooterHeadline {
+    color: rgb(200, 200, 200);
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+    margin-left: 150px;
+    float: left;
+    border-bottom: 3px solid #5C2602;
+}
+
+.FooterLinks a {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+    color: rgb(200, 200, 200);
+    font-size: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.FooterLinks a:hover {
+    border-bottom: 2px solid #5C2602;
+}
+
+.FooterHeadlinezwei {
+    color: rgb(200, 200, 200);
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 205px;
+    float: left;
+    padding-top: 20px;
+    border-bottom: 3px solid #5C2602;
+}
+
+.FooterHeadlines {
+    width: 1263px;
+    height: 60px;
+}
+
+.FooterContent {
+    width: 1263px;
+    height: 340px;
+}
+
+.FooterLinks {
+    float: left;
+}
+
+.FooterLinksZusatz {
+    float: left;
+}
+
+.FooterLinksZusatz a {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 100px;
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 3px solid #5C2602;
+}
+
+.FooterLinksZusatz a:hover {
+    color: #5C2602;
+}
+
+.FooterHaftung {
+    float: right;
+}
+
+.FooterHaftungText {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(200, 200, 200);
+    font-size: 18px;
+    padding-right: 75px;
+    line-height: 30px;
+}
+
+.FS {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(200, 200, 200);
+    font-size: 15px;
+    padding-top: 28px;
+    margin-left: 25px;
+}
+
+.GoldenenRegeln {
+    background-color: rgb(10, 10, 10);
+    width: 1231px;
+    height: 850px;
+    padding-left: 32px;
+}
+
+.GeschichteTextzwei {
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    line-height: 27px;
+}
+
+.GeschichteTextzweizwei {
+    color: #9a754a;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    line-height: 27px;
+}
+
+.animatedText {
+    font-family: monospace;
+    overflow: hidden;
+    height: 1.5em;
+    word-wrap: break-word;
+    white-space: nowrap;
+    animation: typing 3s steps(20) forwards;
+    color: rgb(200, 200, 200);
+    padding-top: 140px;
+    padding-left: 330px;      
+   }
+   
+   @keyframes typing {
+     from { 
+       width: 0;
+     }
+   
+     to { 
+       width: 20ch;
+     }
+   }
+
+   .blinkIn {
+    animation-name: animation_blink;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite; 
+    animation-duration: 3s; 
+    padding-top: 140px;
+    padding-left: 330px;      
+    color: #5C2602;   
+    font-family: monospace;  
+    height: 1.5em;    
+    white-space: nowrap;
+}
+
+@keyframes animation_blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.1; }
+    100% { opacity: 1; }    
+}
+
+.rolling {
+	animation: rolling 4s forwards;
+    animation-delay: 2s;
+    visibility: hidden;
+}
+
+@keyframes rolling {
+	0% {
+        visibility: visible;
+        transform: translateX(950px) rotate(0);
+    }
+    100% {
+        visibility: visible;
+        transform: translateX(570px) rotate(2turn);
+    }
+}
+
+.header-overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgb(0,0,0);
+    opacity: 0.2;
+  }
+
+  .fade-from-bottom {
+    animation: move-from-bottom 4s forwards;
+}
+  
+@keyframes move-from-bottom {
+    0% {
+        transform: translateY(350px);
+    }
+    100% {
+        transform: translateY(0.01px);
+    }
+}
+
+.fade-from-left {
+    animation: move-from-left 4s forwards;
+}
+  
+@keyframes move-from-left {
+    0% {
+        transform: translateX(-350px);
+    }
+    100% {
+        transform: translateX(0.01px);
+    }
+}
+
+.videoplay {
+    margin-left: 32px;
+    border: 3px solid #5C2602;
+    float: left;
+    margin-top: 35px;
+}
+
+.TextContainerVideo {
+    float: left;
+    margin-left: 64px;
+}
+
+
