@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" class="mdl-js">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mittelspielgrundlagen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    
+</head>
+<body>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            var node = document.createElement('style');
+            node.innerHTML = "html {scroll-behavior: smooth;}";
+            document.body.appendChild(node);
+        };
+    </script>  
+
+    <div class="HeaderPicture">
+        <div class="Conatainer">
+            <p class="Headlinezwei">
+              Mittelspielgrundlagen
+            </p>
+        </div>
+        <img class="HeaderPicture1" src="Background6.jpg" alt="HeaderPicture">
+        <a class="Headlinelink1zwei" href="#Beispiele">Beispiele</a>
+        <a class="Headlinelink2zwei" href="#Regeln">Regeln</a>
+        <a class="Headlinelink4zwei" href="#Impressum">Impressum</a>
+    </div>
+
+    <div class="BackgroundImagezwei">
+        <h1>Mittelspielgrundlagen</h1>
+        
+        <img class="rolling" src="Background rollende Schachfigur.jpg" alt="rollende Schachfigur">
+
+        <p class="Zitatzweizwei">
+            "Jeder Schachmeister war einmal ein Anfänger." – Irving Chernev
+            <br id="Beispiele">
+        </p>
+    </div>
+
+    <script type="text/javascript">
+        var animations=["animatedText","blinkIn"],
+        count=animations.length,
+        classlist=document.querySelector("h1").classList,
+        holder=document.createElement("div"),
+        style=window.getComputedStyle(holder),
+        delay=3,
+            current,wait,x;
+            holder.style.display="none";
+            document.body.appendChild(holder);
+            animate();
+            function animate(){
+                wait=0;
+                x=0;
+                while(x<count){
+                    setTimeout(function(a){
+                    classlist.remove(current);
+                    classlist.add(a);
+                    current=a;
+                        },wait*1000,animations[x]);
+                        holder.className=animations[x];
+                        wait+=delay+parseInt(style.getPropertyValue("animation-duration"));
+                        x++;
+                        }
+        setTimeout(animate,wait*2000);
+        };
+    </script>
+
+    <div class="Einführungeins">
+        <p class="EinführungTextHeadline">
+            <br> <br>
+            Beispiele
+            <hr class="Abtrennung">
+        </p>
+
+        <div class="EinführungTextContainerzwei">
+            <p class="UnterHeadline">
+                Intention des Mittelspiels:
+            </p>
+        </div>
+
+        <p class="EinführungTextzweizwei">
+            Nachdem die Eröffnung, die ja in großen Teilen sehr systematisch von Statten geht rum ist, ist jetzt die Zeit der großen Denker 
+            <br>
+            und Strategen gekommen. Heißt also hier ist Taktik angesagt. Dabei kommen auch Zugmuster zum Einsatz, die eigentlich zum Grundrepertoire eines jeden Schachspieles gehören. Sie haben klangvolle Namen wie „Gabel“, „Fesselung“ oder auch „Spieß“. 
+            <br> <br>
+            Dabei sind Züge gemeint, die den Ausführenden entweder in eine bessere Position bringen, weil sie eine Figur des Gegners an 
+            <br>
+            eine bestimmte Stellung binden, oder aber der Zug sie zwangsläufig zum Gewinn einer Figur führt. Ganz tricky wird es, wenn 
+            <br>
+            eigene Figuren für eine bessere Stellung oder Spielsituation geopfert werden. Dabei kann dann zwischen Hinlenkungsopfer 
+            <br>
+            oder Beteiligungsopfer unterschieden werden.
+        </p>
+
+        <div class="EinführungTextContainerzwei">
+            <p class="UnterHeadline">
+                Taktikbeispiele:
+            </p>
+        </div>
+
+        <div>
+            <video class="videoplay" width="500" height="280" loop muted preload src="Background Die Fesselung.mp4" type="video/mp4“"></video>
+        
+            <div class="TextContainerVideo">
+                <p class="EinführungTextzweizweizwei">
+                    Taktiken sind ein großer Bestandteil einer jeden 
+                    <br>
+                    Schachpartie und die Fesselung ist unter den 
+                    <br>
+                    grundlegenden Taktiken die gebräuchlichste. Sicher 
+                    <br>
+                    kannst Du mit einer Fesselung den ein oder anderen 
+                    <br>
+                    Gegner überraschen und die Partie gewinnen. Eine 
+                    <br>
+                    Fesselung ist eine Taktik, mit der Du eine oder sogar
+                    <br>
+                    mehrere der Figuren Deines Gegners einschränken kannst.
+                    <br>
+                    Du kannst dies tun, indem Du eine gegnerische Figur so 
+                    <br>
+                    angreifst, dass Du einen viel größeren Schaden anrichten
+                    <br>
+                    würdest, wenn die Figur zieht, als wenn sie stehenbleibt.
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <video class="videoplay" width="500" height="280" loop muted preload src="Background Der Spieß.mp4" type="video/mp4“"></video>
+        
+            <div class="TextContainerVideo">
+                <p class="EinführungTextzweizweizwei">
+                    Um ein besserer Schachspieler zu werden, musst Du Taktiken 
+                    <br>
+                    verstehen. Werfen wir einen Blick auf eine der häufigsten 
+                    <br>
+                    Taktiken im Schach und wie Du sie nutzen kannst: Den Spieß. 
+                    <br>
+                    Der Spieß ist eine der wichtigsten Taktiken im Schach. Du 
+                    <br>
+                    nutzt dabei aus, dass mehrere Figuren des Gegners auf einer 
+                    <br>
+                    Linie oder Diagonale stehen und gewinnst dadurch Material. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="Einführungzweizweizwei">
+        <br id="Regeln"> 
+        <p class="EinführungTextHeadline">
+            <br> <br> 
+            Die Goldenen
+            <br> <br>
+            Mittelspielregeln
+            <hr class="Abtrennung">
+        </p>
+
+        <div class="EinführungTextContainer">
+            <p class="UnterHeadline">
+                Mittelspielgrundlagen
+                <br> <br>
+            </p>
+
+            <img class="BackgroundSchachbrett" src="Background Damengambit.png" alt="Background Damengambit">
+
+            <p class="EinführungText">
+                Die Goldenen Eröffnungsregeln benennen die wichtigsten Grundlagen und Prinzipien der Eröffnung. In der Eröffnung geht es grundsätzlich um das Ziel alle „wichtigen“ Figuren zu entwickeln und in gute Ausgangspositionen zu bekommen. 
+                <br> <br>
+                Das soll heißen, dass z.B. Pferd und Springer nicht mehr auf der Grundlinie stehen und auch eine Rochade durchgeführt ist. Wenn es gut läuft hat man die Felder im Zentrum gut im Griff. Eröffnungen können in drei unterschiedliche Systemvarianten aufgeteilt werden:
+                <br> <br>
+                Das Damengambit (rechts im Bild aus schwarzer Sicht zu sehen) ist eine der bekanntesten und meistgespieltesten Eröffnungen. Das Damengambit wird als geschlossenes System bezeichnet. Hier wird nicht mit einem Zentrumsbauer eröffnet, sondern mit d4 d5. 
+                <br> <br>
+                Bei den offenen Systemen werden in der ersten Zugfolge die Zentrumsbauern bewegt, also e4 e5. Zu den Vertretern dieser Systeme gehören beispielweise die spanische Eröffnung, oder die Italienische. Zu den halboffenen Eröffnungen gehört zum Beispiel die sizilianische Eröffnung. Hier wird nach dem Zug e4 mit c5 geantwortet.
+                <br> <br>                
+                Eröffnungen sind schon kleine Wissenschaften, denn zu jeder Eröffnung gibt es passende und unpassende Züge, die man kennen sollte. Als beendet gilt eine Eröffnung, wenn alle Figuren entwickelt sind, dies ist meistens nach ca. 12 - 15 Zügen der Fall.
+            </p>
+        </div>
+    </div>
+
+    <div class="Phasenzweizwei">
+        <p class="EinführungText">
+            Unter den folgenden Links können mehr Informationen zu den einzelnen Phasen des Schachspiels gefunden werden:
+            <br> <br> <br>
+        </p>
+        <a class="Eröffnungslinkzwei" href="./index.html">Startseite</a>
+        <a class="Mittelspiellinkzwei" href="./indexe.html">Eröffnung</a>
+        <a class="Mittelspiellinkzwei" href="./indexg.html">Endspiel</a>
+        <hr class="Abtrennungzweizwei">
+    </div>
+
+    <div class="GoldenenRegeln">
+        <p class="UnterHeadline">
+            <br> <br>
+            Die Goldenen Mittelspielregeln:
+        </p>
+
+        <p class="GeschichteTextzwei">
+            <br>
+            Die Goldenen Mittelspielsregeln sind Tipps um im Mittelspiel keine leichten Fehler zu begehen und sollen helfen anfangs eine solide Stellung aufzubauen. Konkret werden die Goldenen Mittelspielregeln nun benannt und kurz beschrieben. Das ausführliche Video gibt es unter dem folgendem Link. 
+            <a class="WikipediaLink" href="https://www.youtube.com/watch?v=uokObdo2x1I" target="_blank">Die Goldenen Mittelspielregeln (Video)</a>
+            <br> <br>
+        </p>
+
+        <p class="GeschichteTextzwei" data-fade-in-bottom>
+            - Drohungen erkennen und abwehren - prophylaktisch
+            <br> <br>
+        </p>
+    
+        <p class="GeschichteTextzweizwei" data-fade-in-left>
+            - Angriffsmarken erkennen und ausnutzen 
+            <br> <br>
+        </p>
+   
+        <p class="GeschichteTextzwei" data-fade-in-bottom>
+            - Auf Bauernstruktur achten
+            <br> <br>
+        </p>
+
+        <p class="GeschichteTextzweizwei" data-fade-in-left>
+            - Starke und schwache Felder erkennen und ausnutzen
+            <br> <br>
+        </p>
+
+        <p class="GeschichteTextzwei" data-fade-in-bottom>
+            - Die Stellung der Figuren verbessern 
+            <br> <br>
+        </p>
+    </div>
+
+    <div class="Footer">
+        <div class="FooterHeadlines">
+            <p class="FooterHeadline">
+                Quellen:
+            </p>
+
+            <p class="FooterHeadlinezwei">
+                Zusatz Informationen:
+            </p>
+
+            <p class="FooterHeadlinezwei">
+                Haftungshinweis:
+            </p>
+        </div>
+
+        <div class="FooterContent">
+            <div class="FooterLinks">
+                <a href="https://www.ichess.net/de/shop/triple-weighted-chess-pieces-3-75-king/">https://www.ichess.net/de/shop/triple-weighted-chess-pieces-3-75-king/</a>
+                <br> <br>
+                <a href="https://ryanphillipschess.com/blog/">https://ryanphillipschess.com/blog/</a>
+                <br> <br>
+                <a href="https://www.olivenholz.de/it/schachbretter/165-schachspiel-viereckig-mit-schublade.html">https://www.olivenholz.de/it/schachbretter/165-schachspiel-viereckig-mit-schublade.html</a>
+                <br> <br>
+                <a href="https://www.spielezar.ch/blog/geschichte/die-geschichte-des-schachspiels">https://www.spielezar.ch/blog/geschichte/die-geschichte-des-schachspiels</a>
+                <br> <br>
+                <a href="https://www.chess.com/de/schachregeln">https://www.chess.com/de/schachregeln</a>
+                <br> <br>
+                <a href="https://klexikon.zum.de/wiki/Schach">https://klexikon.zum.de/wiki/Schach</a>
+                <br> <br>
+                <a href="https://www.schach-tipps.de/schachtraining/taktik/schachaufgaben">https://www.schach-tipps.de/schachtraining/taktik/schachaufgaben</a>  
+            
+                <p class="FS">
+                    Feinste Schachgrundlagen AG © 2022
+                </p>
+            </div>
+
+            <div class="FooterLinksZusatz">
+                <a href="./index.html">Startseite</a>
+                <br> <br> <br id="Impressum"> <br> <br> <br>
+                <a href="./indexe.html">Eröffnung</a>
+                <br> <br> <br> <br> <br> <br>
+                <a href="./indexg.html">Endspiel</a>
+            </div>
+
+            <div class="FooterHaftung">
+                <p class="FooterHaftungText">
+                    Es wird keine Verantwortung für
+                    <br>
+                    die Korrektheit oder Volständigkeit
+                    <br>
+                    der Informationen übernommen.
+                    <br>
+                    Für den Inhalt der verlinkten Seiten 
+                    <br>
+                    sind ausschließlich deren Betreiber
+                    <br>
+                    verantwortlich. Die Bearbeitung 
+                    <br>
+                    außerhalb der Grenzen des  
+                    <br>
+                    Urheberrechtes bedarf der 
+                    <br>
+                    schriftlichen  Zustimmung 
+                    <br>
+                    der Autoren: Thor und Senior
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        let myvideo = document.querySelectorAll(".videoplay");
+    
+        for (var i = 0; i < myvideo.length; i++){
+            myvideo[i].addEventListener("mouseover", function() {
+                this.play();
+            })
+            myvideo[i].addEventListener("mouseleave", function() {
+                this.pause();
+            })
+        }
+    </script>
+    <script type="text/javascript">
+        const observer = new IntersectionObserver(triggerFadeIn, {
+            rootMargin: '100px',
+            threshold: 0.5
+          });
+          
+          function triggerFadeIn(entries, observer) {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("fade-from-bottom");
+              }
+            });
+          };
+                                
+          document.querySelectorAll("[data-fade-in-bottom]").forEach(item => observer.observe(item));
+        </script>
+        <script type="text/javascript">
+          const observer2 = new IntersectionObserver(triggerFadeIn, {
+            rootMargin: '100px',
+            threshold: 0.5
+        });
+        
+        function triggerFadeIn(entries, observer2) {
+            entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("fade-from-left");
+            }
+            });
+        };
+                            
+        document.querySelectorAll("[data-fade-in-left]").forEach(item => observer2.observe(item));
+        </script>    
+</body>
+</html>
